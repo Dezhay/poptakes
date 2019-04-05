@@ -1,0 +1,15 @@
+{
+  "name": "poptakes-live",
+  "version": "1.0.0",
+  "description": "poptakes web app",
+  "main": "server.js",
+  "scripts": {
+    "test": "testpoptakes",
+    "start": "node server.js"
+  },
+  "author": "Dezhay Caraway",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

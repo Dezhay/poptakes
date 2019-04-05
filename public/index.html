@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>PopTakes</title>
+	<meta name="description" content="A podcast for the boys">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+	<nav id="overlay">
+		<img src="images/close.svg" class="close-btn" id="close-menu">
+
+		<ul>
+			<li>
+				<a href="#">home</a>
+				<span>Back to base</span>
+			</li>
+			<li>
+				<a href="#">about us</a>
+				<span>Meet your hosts and connect with us on other platforms</span>
+			</li>
+			<li>
+				<a href="#">episodes</a>
+				<span>Every episode from day one</span>
+			</li>
+			<li>
+				<a href="#">subscribe</a>
+				<span>We are on all major platforms!</span>
+			</li>
+		</ul>
+	</nav>
+
+	<header>
+		<a class="logomark">POPTAKES</a>
+		<!--<img src="images/menunavblk4k.svg" class="menu-btn" id="open-menu">-->
+		<p class="names">By Nick Fitzgerald, Nick Karp, Kristian Campos
+		</p>
+	</header>
+	
+	<section>
+		<div class="logo-extend">
+				<img src="images/nt-demo.svg" class="logo">
+		</div>
+
+		<div class="landing-text" id="welcome-land">
+			<h2>Welcome to Pop Takes, your weekly dose of hot takes on all things pop culture.</h2>
+
+		<!--<h3>Shoot some hot takes with the boys as they cover topics ranging across the board 
+			in popular media such as Gaming, Movies, & Music </h3>-->
+		</div>
+		
+		<div id="to-container">
+			<a href="#" id="to-episodes">play latest episode</a>
+		</div>
+
+		<div class="cast">
+			
+			<div class="singlehost">
+			<img src="images/kristian.jpg" class="host-icon">
+			<h4>Kristian Campos</h4>
+			<!--<a href="https://twitter.com/chapterblvck" target="_blank">Twitter</a> /
+			<a href="https://www.instagram.com/chapterblvck" target="_blank">Instagram</a> -->
+
+			</div>
+			<br>
+
+
+			<div class="singlehost">
+			<img src="images/nickk.jpg" class="host-icon">
+			<h4>Nick Karp</h4>
+			<!---<a href="https://twitter.com/nickkarp510" target="_blank">Twitter</a> /
+			<a href="https://www.instagram.com/nickkarp510/" target="_blank">Instagram</a>-->
+
+			</div>
+			<br>
+
+
+			<div class="singlehost">
+			<img src="images/nickf.jpg" class="host-icon">
+			<h4>Nick Fitzgerald</h4>
+			<!---<a href="https://twitter.com/nickf_ca" target="_blank">Twitter</a> -->
+
+			</div>
+			<br>
+		</div>
+
+		<div class="extension-zone">
+			<h2>Check us out on your favorite apps</h2>
+			<img src="images/applepodicon.svg">
+			<img src="images/googlepodicon.svg">
+		</div>
+		
+
+	</section>
+
+	<p class="closinglinks">
+		<!--<h2>Follow the official potakes accounts for more content and updates</h2>-->
+		<img src="images/twittericon.svg" class="foothandleicons">
+		<img src="images/instaicon.svg" class="foothandleicons">
+		<img src="images/youtubeicon.svg" class="foothandleicons">
+
+	</p>
+	
+	<footer>
+			Copyright © 2019 • All Rights Reserved
+	</footer>
+	
+
+
+
+
+	<script>
+		var overlay = document.getElementById('overlay');
+		var closeMenu = document.getElementById('close-menu');
+
+		document.getElementById('open-menu').addEventListener('click', function() {
+			overlay.classList.add('show-menu');
+		});
+
+		document.getElementById('close-menu').addEventListener('click', function() {
+			overlay.classList.remove('show-menu');
+		});
+	</script>
+
+
+</body>
+</html>
+
